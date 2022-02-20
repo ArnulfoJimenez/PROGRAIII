@@ -22,8 +22,8 @@ public class JavaApplication2 {
         // TODO code application logic here
          Numeros n = new Numeros();
          NumBeans nb = new NumBeans();
-         n.setNum1("-20");
-         n.setNum2("2");
+         n.setNum1(-20);
+         n.setNum2(2);
          var logica = nb.PositivosYNegativos(n);
          
          if (logica>0){
