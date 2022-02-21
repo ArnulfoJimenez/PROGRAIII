@@ -8,26 +8,30 @@ package Pojos;
  *
  * @author Josss_k4ptalp
  */
-public class Numeros {
-    String Num1;
-    String Num2;
-
-    public String getNum1() {
-        return Num1;
+public class Num {
+    
+    int num1;
+    int num2;
+    
+    public Num(){
+        
     }
 
-    public void setNum1(String Num1) {
-        this.Num1 = Num1;
+
+    public Num (int num1, int num2){
+       this.num1 = num1;
+       this.num2 = num2;
     }
 
-    public String getNum2() {
-        return Num2;
+    public int getNum1() {
+        return num1;
     }
 
-    public void setNum2(String Num2) {
-        this.Num2 = Num2;
+    public int getNum2() {
+        return num2;
     }
 
    
+
     
 }

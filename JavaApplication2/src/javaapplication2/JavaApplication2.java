@@ -4,8 +4,9 @@
  */
 package javaapplication2;
 
-import Beans.NumBeans;
-import Pojos.Numeros;
+import Beans.NumerosBeans;
+import Pojos.Num;
+
 
 
 
@@ -20,19 +21,15 @@ public class JavaApplication2 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-         Numeros n = new Numeros();
-         NumBeans nb = new NumBeans();
-         n.setNum1(-20);
-         n.setNum2(2);
-         var logica = nb.PositivosYNegativos(n);
-         
-         if (logica>0){
-         System.out.println("El numero es negativo");
+        Num n = new Num();
+        NumerosBeans nb = new NumerosBeans();
+        n.getNum1();
+        n.getNum2();
+        nb.PositivosYNegativos(n);
         
-        }else
-            System.out.println("El numero es positivo");
-         }
+
+    
+    
     }
-    
-    
-    
+}
+

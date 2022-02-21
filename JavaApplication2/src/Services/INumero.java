@@ -4,12 +4,13 @@
  */
 package Services;
 
-import Pojos.Numeros;
+import Pojos.Num;
 
 /**
  *
  * @author Josss_k4ptalp
  */
-public interface INum {
-    public int PositivosYNegativos(Numeros n);
+public interface INumero {
+    
+    public String PositivosYNegativos(Num num);
 }
